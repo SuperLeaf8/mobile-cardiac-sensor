@@ -1,6 +1,13 @@
 # Mobile "Cardiac" Sensor
 it does NOT detect a cardiac signature, it detects up to 3 human targets and tracks them as best as it can.
 
+if you built this correctly, you will see a radar type display with some text. targets will show up as differently colored dots
+by default the range i set is 5m, each line in the circle is 1m
+the bigger the dots are, the more you can suspect a cluster of people
+
+do look at the documentation
+
+
 ## hi, some things to note
 1. if you want to make your own version with different parts or rewritten code (making it better or making it do different things) you can make forks, and do let me know i am very interested in seeing
 2. this is using consumer grade electronics because i am a poor engineering student. the not so dependent quality is the irl nerf
