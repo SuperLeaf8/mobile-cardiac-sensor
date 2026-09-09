@@ -31,6 +31,7 @@ if your board has a 3.3v regulator (like the nano) then use that instead
 
 ## how to make (the hardware)
 i will upload a picture and link the circuit to refer to in order to build the hardware for this. i HIGHLY suggest soldering a circuit, and even more suggest getting a proper PCB from a vendor. soldering skills are a must
+
 ![schematic of circuit](https://github.com/SuperLeaf8/mobile-cardiac-sensor/blob/main/schematic.png)
 ### notes about hardware
 - you will need to solder wires for the battery and the switch (which is what will power the project, i will draw a schematic of THAT later)
@@ -38,6 +39,8 @@ i will upload a picture and link the circuit to refer to in order to build the h
 - the TXB0108 is a MUST because otherwise you will fry the screen
 - the two little resistors is also a must so you dont fry the radar
 - a multimeter is a good tool to have to check for connections or unwanted connections
+- im not using the touch function of the TFT display, so i leave those pins unconnected. if you want some touch functionality there should be enough pins on an Arduino mini/nano to do it
+
 ![battery diagram with switch](https://github.com/SuperLeaf8/mobile-cardiac-sensor/blob/main/battery.png)
 
 ## how to make (the software)
