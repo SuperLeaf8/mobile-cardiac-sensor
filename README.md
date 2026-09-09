@@ -44,6 +44,12 @@ i will upload a picture and link the circuit to refer to in order to build the h
 - the two little resistors is also a must so you dont fry the radar. the values do not matter as long as they are large and the one on the left is 2 times larger
 - a multimeter is a good tool to have to check for connections or unwanted connections
 - im not using the touch function of the TFT display, so i leave those pins unconnected. if you want some touch functionality there should be enough pins on an Arduino mini/nano to do it
+- the battery charger board i have linked does the following:
+  - convert a 1s lipo (3.7) voltage to 5 volts
+  - when charging with a usb c, the battery charges and still maintains its output
+  - green flashing means charging, fully green means full, blue means output draw (being used), no light means standby
+  - with a 7Wh battery your shit should last like 240 hours on standby
+  - it has undervoltage and overcurrent protection (3v undervoltage, 3A overcurrent)
 
 ![battery diagram with switch](https://github.com/SuperLeaf8/mobile-cardiac-sensor/blob/main/battery.png)
 
