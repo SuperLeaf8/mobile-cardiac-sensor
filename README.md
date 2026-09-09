@@ -5,7 +5,7 @@ if you built this correctly, you will see a radar type display with some text. t
 by default the range i set is 5m, each line in the circle is 1m
 the bigger the dots are, the more you can suspect a cluster of people
 
-do look at the documentation
+do look at the [documentation](https://github.com/SuperLeaf8/mobile-cardiac-sensor/blob/main/457502695.pdf)
 
 
 ## hi, some things to note
