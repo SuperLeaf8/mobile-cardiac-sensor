@@ -25,6 +25,10 @@ you will NEED the following:
 - [charging board for battery](https://a.co/d/0h1k8oPG)
 - a 5v microcontroller + programming board/cable. i am using the Arduino Pro Mini (5V, 16MHz) but i recommend an Arduino Nano if you dont mind using more space
 - computer to upload program
+### other matierals/tools you need not specific to the project
+- soldering station (preferably a station, not those cheap cord ones). should come with solder wire and flux
+- green prototype circuit boards with holes
+- wires for the pcb
 
 if you are NOT using a microcontroller that has 3.3v (arduino pro mini 5v for example), you will need the [3.3v regulator](https://a.co/d/0eNMOGoz)
 if your board has a 3.3v regulator (like the nano) then use that instead
@@ -37,7 +41,7 @@ i will upload a picture and link the circuit to refer to in order to build the h
 - you will need to solder wires for the battery and the switch (which is what will power the project, i will draw a schematic of THAT later)
 - you will also need to solder wires onto the sensor, they are not through-hole pads.
 - the TXB0108 is a MUST because otherwise you will fry the screen
-- the two little resistors is also a must so you dont fry the radar
+- the two little resistors is also a must so you dont fry the radar. the values do not matter as long as they are large and the one on the left is 2 times larger
 - a multimeter is a good tool to have to check for connections or unwanted connections
 - im not using the touch function of the TFT display, so i leave those pins unconnected. if you want some touch functionality there should be enough pins on an Arduino mini/nano to do it
 
