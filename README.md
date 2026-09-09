@@ -1,6 +1,8 @@
 # Mobile "Cardiac" Sensor
 it does NOT detect a cardiac signature, it detects up to 3 human targets and tracks them as best as it can.
 
+this works by using a radar "echo", kind of like ultrasonic except high frequency RF instead of ultrasonic sound waves. it tries its best to pick up flesh like objects like that and determine distances
+
 if you built this correctly, you will see a radar type display with some text. targets will show up as differently colored dots
 by default the range i set is 5m, each line in the circle is 1m
 the bigger the dots are, the more you can suspect a cluster of people
@@ -32,6 +34,7 @@ i will upload a picture and link the circuit to refer to in order to build the h
 ![schematic of circuit](https://github.com/SuperLeaf8/mobile-cardiac-sensor/blob/main/schematic.png)
 ### notes about hardware
 - you will need to solder wires for the battery and the switch (which is what will power the project, i will draw a schematic of THAT later)
+- you will also need to solder wires onto the sensor, they are not through-hole pads.
 - the TXB0108 is a MUST because otherwise you will fry the screen
 - the two little resistors is also a must so you dont fry the radar
 - a multimeter is a good tool to have to check for connections or unwanted connections
