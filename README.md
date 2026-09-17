@@ -19,7 +19,7 @@ do look at the [documentation](https://github.com/SuperLeaf8/mobile-cardiac-sens
 ## materials
 you will NEED the following:
 - [RD03D sensor (the tracking thing)](https://a.co/d/0ip2m8Sf)
-- [4" TFT screen (display)](https://a.co/d/0evdUtjt) or other 320x480 tft display
+- [4" TFT screen (display)](https://a.co/d/0evdUtjt) or other 320x480 tft display, make sure it is ST7796S driven. otherwise youll have new wirings and new code to make
 - [TXB/S0108 board](https://a.co/d/0fWlWtSx)
 - [3.7v LiPo](https://a.co/d/0aEmB9fg)
 - [charging board for battery](https://a.co/d/0h1k8oPG)
@@ -62,3 +62,6 @@ i will upload a picture and link the circuit to refer to in order to build the h
 
 ## what else
 make your own chasis and whatnot for the project. i am not liable if something blows up. issues or anything pls leave a github issue
+
+
+credits: Adafruit for the base gfx library, skrunkgy for core parts of the front code, and prenticedavid and contributors for the driver code for this specific display.
