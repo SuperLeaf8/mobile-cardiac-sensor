@@ -14,7 +14,8 @@ do look at the [documentation](https://github.com/SuperLeaf8/mobile-cardiac-sens
 1. if you want to make your own version with different parts or rewritten code (making it better or making it do different things) you can make forks, and do let me know i am very interested in seeing
 2. this is using consumer grade electronics because i am a poor engineering student. the not so dependent quality is the irl nerf
 3. i expect you to at least know how to connect wires together and use a computer. be a LITTLE tech savvy, i will try to explain how and why i do things
-4. if you have questions you can leave an issue with a question label
+4. the 3d files are for if you are using the components i used EXACTLY. if not, you can use tinkercad to tinker with the 3d models.
+5. if you have questions you can leave an issue with a question label
 
 ## materials
 you will NEED the following:
@@ -44,6 +45,7 @@ i will upload a picture and link the circuit to refer to in order to build the h
 - the two little resistors is also a must so you dont fry the radar. the values do not matter as long as they are large and the one on the left is 2 times larger
 - a multimeter is a good tool to have to check for connections or unwanted connections
 - im not using the touch function of the TFT display, so i leave those pins unconnected. if you want some touch functionality there should be enough pins on an Arduino mini/nano to do it
+- 3d files: the holes are m2 and m3 screws. orient them to print them, you need SOME density and supports. the "radar slot" may not fit completely and may need some spacers (m2).
 - the battery charger board i have linked does the following:
   - convert a 1s lipo (3.7) voltage to 5 volts
   - when charging with a usb c, the battery charges and still maintains its output
